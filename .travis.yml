@@ -1,0 +1,14 @@
+language: python
+sudo: false
+cache: pip
+before_install:
+  - python3 --version
+install:
+  - pip3 install pipenv
+  - pipenv install --dev
+  - tox --version
+script:
+  - tox -v
+after_failure:
+  - more .tox/log/* | cat
+  - more .tox/*/log/* | cat
