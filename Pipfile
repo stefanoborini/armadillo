@@ -11,8 +11,6 @@ armadillo = {editable = true, path = "."}
 [dev-packages]
 "pytest" = "*"
 "flake8" = "*"
-"tox" = "*"
-"tox-pipenv" = "*"
 
 [requires]
 python_version = "3.7"
