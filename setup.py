@@ -12,16 +12,12 @@ setup(
     package_dir={'':'src'},
     include_package_data=True,
     zip_safe=False,
-    classifiers=[
-    ],
-    keywords=[
-    ],
+    classifiers=[],
+    keywords=[],
     install_requires=[
         "PyQt5",
         "traitlets"
     ],
-    extras_require={
-    },
-    entry_points={
-    },
+    extras_require={},
+    entry_points={},
 )
