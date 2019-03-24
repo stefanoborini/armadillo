@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 "traitlets" = "*"
 "PyQt5" = "*"
-armadillo = {editable = true,path = "."}
+armadillo = {editable = true, path = "."}
 
 [dev-packages]
 "pytest" = "*"
